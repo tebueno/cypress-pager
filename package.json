@@ -1,0 +1,23 @@
+{
+  "name": "cypress-pager",
+  "version": "1.0.0",
+  "description": "Take home assignment",
+  "main": "index.js",
+  "scripts": {
+    "cy": "./node_modules/.bin/cypress",
+    "test": "npm run cy run -- -q --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tebueno/cypress-pager.git"
+  },
+  "author": "Tom Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tebueno/cypress-pager/issues"
+  },
+  "homepage": "https://github.com/tebueno/cypress-pager#readme",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
